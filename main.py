@@ -48,6 +48,8 @@ class MyMainWindow(QDialog):
             bytes_per_line = ch * w
             q_image = QImage(image_rgb.data, w, h, bytes_per_line, QImage.Format_RGB888)
             self.setPixmap(q_image)
+        else:
+            print("拍摄异常")
 
 if __name__ == '__main__':
     app = QApplication([])
