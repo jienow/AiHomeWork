@@ -1,0 +1,10 @@
+./3rdparty/
+./bin/
+./examples/
+./include/
+./lib/
+./models/
+./venv/
+./Instructions.txt
+./LICENSE
+./Version.txt
