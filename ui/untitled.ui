@@ -32,17 +32,30 @@
     <attribute name="title">
      <string>识别身体姿势</string>
     </attribute>
-    <widget class="QPushButton" name="pushButton">
+    <widget class="QPushButton" name="body_shibie">
      <property name="geometry">
       <rect>
-       <x>40</x>
-       <y>60</y>
+       <x>10</x>
+       <y>10</y>
        <width>93</width>
        <height>28</height>
       </rect>
      </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>开始检测</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="BodyResult">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>50</y>
+       <width>421</width>
+       <height>381</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
      </property>
     </widget>
    </widget>
@@ -50,11 +63,37 @@
     <attribute name="title">
      <string>识别手势姿势</string>
     </attribute>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>开始识别</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QWidget" name="tab_3">
     <attribute name="title">
      <string>识别表情</string>
     </attribute>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>开始识别</string>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QPushButton" name="paishe">
